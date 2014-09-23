@@ -1,5 +1,6 @@
 #!/bin/awk -f
 
+#xxxxxxxxxxxx
 BEGIN {
 	math = 0
 	english = 0
@@ -9,6 +10,7 @@ BEGIN {
 	printf "-------------------------------------\n"
 }
 
+#yyyyyyyyyyy
 {
 	math+=$3
 	english+=$4
@@ -16,6 +18,7 @@ BEGIN {
 	printf "%-6s %-6s %4d %8d %8d %8d\n", $1,$2,$3,$4,$5,$3+$4+$5
 }
 
+#zzzzzzzzzz
 END {
 	printf "-------------------------------------\n"
 	printf " TOTAL:%10D %8D %8D \n", math, english, computer
