@@ -4,4 +4,4 @@ Git has a mutable index  3
 My stupid boss SVN  4
 add a new branch
 Creating a new branch is quick and simple.
-no-ff
+add xxx no-ff
